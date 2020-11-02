@@ -1,0 +1,19 @@
+.grid-box{
+  display: grid;
+}
+.grid-item{
+  display: inline-grid;
+}
+.container{
+  grid-template-columns: 15% 85%;
+}
+.left{
+  background-color:pink;
+}
+.left-container{
+  grid-auto-flow: row;
+  grid-template-rows: repeat(3,30px);
+}
+.right{
+  background-color: skyblue;
+}
